@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root::-webkit-scrollbar { display: none;}
+/* File CSS */
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: #111;
+  color: white;
+}
+/* Header */
+.header {
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  display: flex;
+}
+.icon {
+  display: flex;
+}
+.title {
+  align-items: flex-start;
+  flex-direction: column;
+  display: flex;
+}
+
+/* Menu */
+
+.menu {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  overflow: hidden;
+  top: 0;
+}
+.menu ul {
+  background-color: white;
+  position: -webkit-sticky;
+  list-style-type: none;
+  overflow: hidden;
+  position: sticky;
+  padding: 0;
+  margin: 0;
+  top: 0;
+}
+.menu li {
+  float: left;
+}
+.menu li a {
+  text-decoration: none;
+  padding: .7rem .8rem;
+  text-align: center;
+  display: block;
+}
+.menu li a:hover {
+  background-color: #333;
+  color: white;
+}
+.active {
+  background-color: blue;
+  color: white;
+}
+.test {
+  background-image: url(https://wallpaperaccess.com/full/2825826.gif);
+  background-size: 480px 270px;
+  height: 270px;
+  width: 480px;
+}
